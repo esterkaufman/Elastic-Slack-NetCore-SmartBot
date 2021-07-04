@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NReco.Logging.File" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Researcher.Bot.Implementations\Researcher.Bot.Implementations.csproj" />
+    <ProjectReference Include="..\Researcher.Bot.Integration.ElasticSearch\Researcher.Bot.Integration.ElasticSearch.csproj" />
+  </ItemGroup>
+
+
+</Project>
